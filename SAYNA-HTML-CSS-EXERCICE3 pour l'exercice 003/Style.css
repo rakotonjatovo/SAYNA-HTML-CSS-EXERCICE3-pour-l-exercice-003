@@ -1,0 +1,272 @@
+/* Cette partie traite header */
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif, 'Raleway';
+}
+header{
+    background-color: #322f36;
+}
+nav{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    height: 130px;
+    padding-right: 300px;
+    padding-left: 250px;
+    border-bottom: 1px solid #ababab41; 
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+nav img{
+    width: 300px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+nav a.lien{
+    text-decoration: underline;
+    color:#3d9f96;
+    margin-left: 60px;
+}
+/* Pour la partie de la page */
+.sect1{
+    text-align: center;
+    padding-top: 60px;
+    background-color: #322f36;
+}
+.sect1 p span.prom{
+    font-size: 30px; 
+    color: #ababab; 
+}
+.sect1 p span.newapp{
+    font-weight: 630;
+    font-size: 30px;
+}
+.sect1 p span.new{
+    color:#3d9f96;
+    font-size: 14px;
+}
+input{
+    background-color:#3d9f96;
+    color: white;
+    width: 130px;
+    height: 35px;
+    border-radius: 20px;
+    border-color:#3d9f96;
+    text-align: center; 
+}
+.ordi{
+    margin-top: 100px;
+    margin-bottom: -16px;
+}
+.sect2{
+    background-color: #f7f7f7;
+    padding-top: 40px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+.sect2 div.social{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sect2 p{
+    text-align: center;
+    color: #3d9f96;
+    font-weight: 550;
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+.sect3{
+    padding: 30px;
+}
+
+.sect3 p{
+    text-align: center;
+    color: black;
+}
+.sect3 p.app{
+    font-size: 22px;
+}
+span.newapp2{
+    font-weight: 700;
+}
+.sect3 p.aen{
+    line-height: 30px;
+    color: #ababab;
+}
+.cont1{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 65px;
+    background-image: url(assets/img/map_bg.png);
+}
+h1{
+    color: black;
+}
+img.relative{
+    position: relative;
+    top: 50%;
+    left: 30%;
+}
+.it2{
+    background-image: url(assets/img/image_190px_1.png);
+    background-repeat: no-repeat;
+    background-position: 50px 0px;
+    width: 300px;
+}
+.sect3 > .cont1 > .it1 p{
+    color: #ababab;
+}
+.sect3 > .cont1 > .it3 img{ 
+   align-items: flex-end;
+   position: relative;
+}
+.sect3 > .cont1 > .it3 .img1{ 
+   left: 70px;
+}
+.sect3 > .cont1 > .it3 .img3{ 
+    left: 60px;
+ }
+.sect3 > .cont1 > .it3 p{
+    color: #ababab;
+}
+.sect4{
+    background-color:#322f36;
+    padding-bottom: 30px;
+}
+.cercle{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.sect4 p{
+    text-align: center;
+    margin-top: 40px;
+}
+.sect4 p span.do{
+    text-align: center;
+    color: #3d9f96;
+}
+.sect5{
+    color: black;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #f7f7f7;
+}
+.sect5 p{
+    margin-left: 410px;
+    margin-top: 0;
+    font-size: 20px;
+}
+figcaption{
+    font-weight: bold;
+}
+.sect5 p span.best{
+    font-weight:bold;
+}
+.cont2{
+    display: flex;
+    margin-left:390px;
+    margin-right: 390px;
+    padding-top: 50px;
+    justify-content: space-around;
+    
+}
+.sect6{
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.go{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+.play{
+    background-image: url(assets/img/dzdzd.png);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 400px;
+}
+.play img{
+    position: relative;
+    top: 100px;
+}
+.ed{
+    font-size: 20px;
+}
+.lac{
+    color: #ababab;
+}
+.test .ed{
+    font-weight: bold;
+}
+.sect7{
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.i{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+.phone img{
+    margin-left: 20px;
+}
+.resp{
+    margin-right: -20px;
+}
+.resp .onsive{
+    font-size: 20px;
+    font-weight: bold;
+}
+.sect7 .resp p .don{
+    color: #ababab; 
+}
+/* C'est la partie footer' */
+footer{
+    color: black;
+}
+.foot1 .logsayna img{
+    width: 300px;
+}
+.foot1{
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+}
+.foot1 p{
+    line-height: 30px;
+    color: #ababab;
+}
+.info h2{
+    color: black;
+    font-size: 20px;
+}
+.contact h3{
+    color: black;
+    font-size: 20px;
+}
+.footer1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.copy p{
+    font-size: 14px;
+    color: #ababab;
+}
